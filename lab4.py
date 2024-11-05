@@ -1,4 +1,5 @@
 class PreciousGem:
+    
 
     def __init__(self, carats=0.0, price=0, name=None):
         self.__carats = carats
@@ -35,6 +36,7 @@ class PreciousGem:
     def __repr__(self):
         return f"PreciousGem(name='{self.__name}', carats={self.__carats}, price={self.__price})"
 
+
 def main():
     gem1 = PreciousGem(1.5, 2000, "Ruby")
     gem2 = PreciousGem(2.0, 5000, "Diamond")
@@ -51,6 +53,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
+ 
